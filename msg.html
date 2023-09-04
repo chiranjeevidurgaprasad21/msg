@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MESSAGE BOX</title>
+    <style>
+        body{
+           background-image: url(https://c4.wallpaperflare.com/wallpaper/378/119/659/steve-jobs-thoughts-wallpaper-preview.jpg);
+           text-align: center;
+           margin-top: 210px;
+           }
+        label{
+            color:red;
+        }
+        h2{
+            font-size: 40px;
+            color: violet;
+        }
+        label{
+            font-size:40px ;
+        }
+        input{
+            padding: 20px;
+            font-size: 15px;
+        }
+        button{
+            padding: 10px;
+            border-radius:45px;
+            background-color:green;
+            color: yellow;
+        }
+        p{
+            color: #822306;
+            font-size: 25px;
+        }
+
+
+
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <div><h2>TEXT THE MESSAGE</h2></div>
+        <label><b>Enter a message</b></label><br>
+        <input type="text" name="msg-ip" id="msg-ip" placeholder="Drop your msg"><br><br>
+        <button id="click" onclick="getmsg()">Submit</button>
+        <button id="click" onclick="getmsg()">Reset</button>
+        <p id="msg-op"></p>
+    </div>
+</body>
+<script src="msg.js"></script>
+</html>
